@@ -1,0 +1,253 @@
+## intent:affirm
+- yes
+- of course
+- sure
+- yeah
+- ok
+- cool
+- go for it
+- yep
+- yep, will do thank you
+- I'm sure I will!
+- oh awesome!
+- Yes
+- accept
+- I accept
+- i accept
+- ok i accept
+- I changed my mind. I want to accept it
+- ok cool
+- alright
+- i will!
+- ok, I behave now
+- yop
+- oki doki
+- yes please
+- yes please!
+- jo
+- yep if i have to
+- amayzing
+- confirm
+- nice
+- coolio
+- definitely yes without a doubt
+- yas
+- yup
+- perfect
+- sure thing
+- absolutely
+- Oh, ok
+- Sure
+- hm, i'd like that
+- ja
+- sure!
+- yes i accept
+- Sweet
+- amazing!
+- how nice!
+- cool!
+- yay
+- yes accept please
+- great
+- oh cool
+- yes
+- fine
+
+## intent:ask_horoscope
+- I want to know my Horoscope
+- I am looking for my horoscope for today
+- My Horoscope
+- Can you please tell me my horoscope?
+- What is the horoscope
+- Get me my horoscope
+- Tell me the horoscope
+- How's my horoscope today
+- horoscope?
+- today Horoscope!
+- [leo](horoscope_sign)
+- [sagittarius](horoscope_sign)
+- [capricorn](horoscope_sign)
+- [gemini](horoscope_sign)
+- [pisces](horoscope_sign)
+- [leo](horoscope_sign) horoscope
+- [sagittarius](horoscope_sign) horoscope
+- [capricorn](horoscope_sign) horoscope
+- [gemini](horoscope_sign) horoscope
+- [pisces](horoscope_sign)
+- The horoscope for [leo](horoscope_sign)
+- The horoscope for [sagittarius](horoscope_sign)
+- The horoscope for [capricorn](horoscope_sign)
+- The horoscope for [gemini](horoscope_sign)
+- The horoscope for [pisces](horoscope_sign)
+- What's the horoscope for [leo](horoscope_sign)
+- What's the horoscope for [sagittarius](horoscope_sign)
+- What's the horoscope for [capricorn](horoscope_sign)
+- What's the horoscope for [gemini](horoscope_sign)
+- What's the horoscope for [pisces](horoscope_sign)
+- What is the horoscope for [leo](horoscope_sign)
+- What is the horoscope for [sagittarius](horoscope_sign)
+- What is the horoscope for [capricorn](horoscope_sign)
+- What is the horoscope for [gemini](horoscope_sign)
+- What is the horoscope for [pisces](horoscope_sign)
+- Give me the horoscope for [leo](horoscope_sign)
+- Give me the horoscope for [sagittarius](horoscope_sign)
+- Give me the horoscope for [capricorn](horoscope_sign)
+- Give me the horoscope for [gemini](horoscope_sign)
+- Give me the horoscope for [pisces](horoscope_sign)
+- Tell me the horoscope for [leo](horoscope_sign)
+- Tell me the horoscope for [sagittarius](horoscope_sign)
+- Tell me the horoscope for [capricorn](horoscope_sign)
+- Tell me the horoscope for [gemini](horoscope_sign)
+- Tell me the horoscope for [pisces](horoscope_sign)
+
+## intent:bye
+- goodbye
+- goodnight
+- good bye
+- good night
+- see ya
+- toodle-oo
+- bye bye
+- gotta go
+- farewell
+- catch you later
+- bye for now
+- bye
+- bye was nice talking to you
+- bye udo
+- bye bye bot
+- bye bot
+- k byyye #slay
+- tlak to you later
+- ciao
+- Bye bye
+- then bye
+- tschüssikowski
+- bye!
+- bye
+
+## intent:deny
+- no
+- definitely not
+- never
+- absolutely not
+- i don't think so
+- i'm afraid not
+- no sir
+- no ma'am
+- no way
+- no sorry
+- No, not really.
+- nah not for me
+- nah
+- no and no again
+- no go
+- no thanks
+- decline
+- deny
+- i decline
+- never mind
+- nevermind
+- I'm not giving you my email address
+- no I haven't decided yet if I want to sign up
+- I don't want to give it to you
+- I'm not going to give it to you
+- no i don't accept
+- no!!!!
+- no you did it wrong
+- no i can't
+- i'm not sure
+- NEIN
+- nein
+- not really
+- i guess it means - no
+- i don't want to
+- i don't want either of those
+- nah thanks
+- neither of these
+
+## intent:greeting
+- Hi
+- Hey
+- Hi bot
+- Hey bot
+- Hello
+- Good morning
+- hi again
+- hi folks
+- hi Mister
+- hi pal!
+- hi there
+- greetings
+- hello everybody
+- hello is anybody there
+- hello robot
+- hallo
+- heeey
+- hi hi
+- hey
+- hey hey
+- hello there
+- hi
+- hello
+- yo
+- hola
+- hi?
+- hey bot!
+- hello friend
+- good morning
+- hii
+- hello sweet boy
+- yoo
+- hey there
+- hiihihi
+- hello sweatheart
+- hellooo
+- helloooo
+- heyo
+- ayyyy whaddup
+- hello?
+- Hallo
+- heya
+- hey bot
+- howdy
+- Hellllooooooo
+- whats up
+- Hei
+- Well hello there ;)
+- I said, helllllloooooO!!!!
+- Heya
+- Whats up my bot
+- hiii
+- heyho
+- hey, let's talk
+- hey let's talk
+- jojojo
+- hey dude
+- hello it is me again
+- what up
+- hi there
+- hi
+- jop
+- hi friend
+- hi there it's me
+- good evening
+- good morning
+- good afternoon
+- hi
+
+## lookup:horoscope_sign
+- aries
+- taurus
+- gemini
+- cancer
+- virgo
+- libra
+- scorpio
+- sagittarius
+- capricorn
+- aquarius
+- pisces
+
+## synonym:sagittarius
+- sagitarius
