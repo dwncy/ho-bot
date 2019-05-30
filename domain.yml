@@ -1,21 +1,24 @@
 %YAML 1.1
 ---
 actions:
+- action_default_fallback
 - action_get_today_horoscope
 - utter_ask_dob
 - utter_ask_horoscope_sign
 - utter_bye
 - utter_default
 - utter_greet
+- utter_restart_with_button
 entities:
 - DD
 - MM
 - horoscope_sign
 - subscribe
 intents:
-- ask_horoscope
 - bye
 - greeting
+- out_of_scope
+- ask_horoscope
 - affirm
 - deny
 slots:
@@ -50,3 +53,8 @@ templates:
   - text: Hola!
   - text: Whatsuppppp!
   - text: Yo Howdy
+  utter_restart_with_button:
+  - buttons:
+    - payload: /restart
+      title: Restart
+    text: Click the button below if you want to start over.

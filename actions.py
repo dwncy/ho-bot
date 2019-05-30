@@ -9,7 +9,7 @@ from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-from rasa_sdk.events import SlotSet
+from rasa_sdk.events import SlotSet, UserUtteranceReverted, ConversationPaused
 
 class ActionGetTodayHoroscope(Action):
     def name(self) -> Text:
@@ -31,3 +31,26 @@ class ActionGetTodayHoroscope(Action):
         response = "Today's horoscope:\n{}".format(todays_horoscope)
         dispatcher.utter_message(response)
         return [SlotSet("horoscope_sign", user_horoscope_sign)]
+
+class ActionDefaultFallback(Action):
+    def name(self) -> Text:
+        return "action_default_fallback"
+
+    def run(self, dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List["Event"]:
+
+        # Fallback caused by TwoStageFallbackPolicy
+        if (
+            len(tracker.events) >= 4
+            and tracker.events[-4].get("name") == "action_default_ask_affirmation"
+        ):
+
+            dispatcher.utter_template("utter_restart_with_button", tracker)
+
+            return [ConversationPaused()]
+
+        # Fallback caused by Core
+        else:
+            dispatcher.utter_template("utter_default", tracker)
+            return [UserUtteranceReverted()]

@@ -9,6 +9,26 @@
   - action_get_today_horoscope
   - slot{"horoscope_sign": "leo"}
 
+## straight ask my horoscope with out of scope
+* ask_horoscope
+  - utter_ask_horoscope_sign
+* out_of_scope
+  - utter_default
+* ask_horoscope{"horoscope_sign": "leo"}
+  - action_get_today_horoscope
+  - slot{"horoscope_sign": "leo"}
+
+## straight ask my horoscope with many out of scope
+* ask_horoscope
+  - utter_ask_horoscope_sign
+* out_of_scope
+  - utter_default
+* ask_horoscope{"horoscope_sign": "leo"}
+  - action_get_today_horoscope
+  - slot{"horoscope_sign": "leo"}
+* out_of_scope
+  - utter_default
+
 ## straight ask another horoscope
 * ask_horoscope{"horoscope_sign": "taurus"}
   - action_get_today_horoscope
@@ -73,4 +93,9 @@
 * ask_horoscope{"horoscope_sign": "aquarius"}
     - slot{"horoscope_sign": "aquarius"}
     - action_get_today_horoscope
+
+## Generated Story -8989125444275848818
+* out_of_scope
+    - utter_default
+
 
